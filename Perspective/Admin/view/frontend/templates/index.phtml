@@ -1,0 +1,6 @@
+<?php 
+if ($block->getExchangeRatesUAH() != 0) echo "<b>UAH: " . $block->getExchangeRatesUAH() . "</b><br>";
+if ($block->getExchangeRatesRUS() != 0) echo "<b>RUB: " . $block->getExchangeRatesRUS() . "</b><br>";
+if ($block->getExchangeRatesEURO() != 0) echo "<b>EURO: " . $block->getExchangeRatesEURO() . "</b><br>";
+echo "Количество товара: " . $block->getQty();
+?>
